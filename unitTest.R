@@ -1,3 +1,6 @@
+## Load the newly created Cached Matrix code
+source("cachematrix.R")
+
 ## This file contains some known unit Tests to ensure 
 ## that the functions are working as they should
 
@@ -23,13 +26,13 @@ cacheSolve(testCache)
 
 ## Unit Test 4
 testMatrix <- matrix(c(2,3,5,7,11,13,17,19,23), 3, 3)
-testMatrix
 testCache <- makeCacheMatrix(testMatrix)
+testMatrix
 cacheSolve(testCache)
 
 
 ## Unit Test 5
 testMatrix <- matrix(1:4,2,2)
-testMatrix
 testCache <- makeCacheMatrix(testMatrix)
+testMatrix
 cacheSolve(testCache)
