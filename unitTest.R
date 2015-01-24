@@ -20,3 +20,16 @@ dim(testMatrix) <- c(2,2)
 testMatrix
 testCache <- makeCacheMatrix(testMatrix)
 cacheSolve(testCache)
+
+## Unit Test 4
+testMatrix <- matrix(c(2,3,5,7,11,13,17,19,23), 3, 3)
+testMatrix
+testCache <- makeCacheMatrix(testMatrix)
+cacheSolve(testCache)
+
+
+## Unit Test 5
+testMatrix <- matrix(1:4,2,2)
+testMatrix
+testCache <- makeCacheMatrix(testMatrix)
+cacheSolve(testCache)
